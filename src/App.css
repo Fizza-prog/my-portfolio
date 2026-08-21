@@ -528,3 +528,292 @@
     padding: 4rem 0 2rem;
   }
 }
+
+/* ================================
+   LMS Case Study
+================================ */
+
+.case-study-hero {
+  padding: 7rem 0 5rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.case-study-hero h1 {
+  max-width: 900px;
+  margin: 0;
+  color: #171717;
+  font-size: clamp(3rem, 7vw, 5.5rem);
+  line-height: 1;
+  letter-spacing: -0.05em;
+}
+
+.case-study-subtitle {
+  max-width: 720px;
+  margin-top: 2rem;
+  color: #525252;
+  font-size: 1.2rem;
+  line-height: 1.7;
+}
+
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 2rem;
+}
+
+.tech-list span {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 999px;
+  background: #ffffff;
+  font-size: 0.85rem;
+}
+
+.case-study-section {
+  padding: 6rem 0;
+}
+
+.case-study-section h2 {
+  max-width: 850px;
+  margin: 0;
+  color: #171717;
+  font-size: clamp(2rem, 4vw, 3.25rem);
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+}
+
+.case-study-section > .container > p:not(.eyebrow) {
+  max-width: 720px;
+  margin-top: 1.5rem;
+  color: #525252;
+  line-height: 1.75;
+}
+
+.case-study-muted {
+  background: #f1f5f9;
+}
+
+.case-study-feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.case-study-feature-grid article,
+.stack-grid > div {
+  padding: 1.5rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  background: #ffffff;
+}
+
+.case-study-feature-grid h3,
+.stack-grid h3 {
+  margin: 0;
+  color: #171717;
+}
+
+.case-study-feature-grid p,
+.stack-grid p {
+  margin-top: 0.75rem;
+  color: #525252;
+  line-height: 1.6;
+}
+
+.stack-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.architecture-flow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 3rem 0;
+}
+
+.architecture-flow div {
+  padding: 1rem 1.25rem;
+  border: 1px solid #d4d4d4;
+  border-radius: 0.5rem;
+  background: #ffffff;
+  font-weight: 500;
+}
+
+.architecture-flow span {
+  color: #2563eb;
+  font-weight: 700;
+}
+
+.case-study-list {
+  max-width: 720px;
+  margin-top: 2rem;
+  padding-left: 1.25rem;
+  color: #525252;
+  line-height: 2;
+}
+
+.screenshot-placeholder-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.screenshot-placeholder-grid div {
+  min-height: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #d4d4d4;
+  border-radius: 0.75rem;
+  background: #f8fafc;
+  color: #737373;
+}
+
+.placeholder-note {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .case-study-hero {
+    padding: 5rem 0 3rem;
+  }
+
+  .case-study-section {
+    padding: 4rem 0;
+  }
+
+  .case-study-feature-grid,
+  .stack-grid,
+  .screenshot-placeholder-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .architecture-flow {
+    flex-direction: column;
+  }
+}
+
+.about-content {
+  max-width: 720px;
+}
+
+.about-content h2 {
+  margin: 0;
+  color: #171717;
+  font-size: clamp(2rem, 4vw, 3.25rem);
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+}
+
+.about-content p:not(.eyebrow) {
+  margin-top: 1.5rem;
+  color: #525252;
+  line-height: 1.75;
+}
+
+.about-skills {
+  margin-top: 3rem;
+}
+
+.approach-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.approach-grid article {
+  padding: 2rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  background: #ffffff;
+}
+
+.approach-grid article > span {
+  color: #2563eb;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.approach-grid h3 {
+  margin: 1rem 0 0;
+  color: #171717;
+  font-size: 1.25rem;
+}
+
+.approach-grid p {
+  margin-top: 0.75rem;
+  color: #525252;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .approach-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ================================
+   Contact Page
+================================ */
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.contact-card {
+  display: block;
+  padding: 2rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  background: #ffffff;
+  color: inherit;
+  text-decoration: none;
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 30px rgb(0 0 0 / 0.08);
+}
+
+.contact-label {
+  color: #2563eb;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.contact-card h2 {
+  margin-top: 1.5rem;
+  color: #171717;
+  font-size: 1.5rem;
+  line-height: 1.25;
+  word-break: break-word;
+}
+
+.contact-card p {
+  margin-top: 1rem;
+  color: #525252;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
