@@ -817,3 +817,144 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* ================================
+   Header
+================================ */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid #e5e7eb;
+  background: rgb(248 250 252 / 0.92);
+  backdrop-filter: blur(10px);
+}
+
+.header-inner {
+  min-height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  background: #2563eb;
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav-link {
+  color: #525252;
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 160ms ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #2563eb;
+}
+
+@media (max-width: 640px) {
+  .header-inner {
+    min-height: 64px;
+  }
+
+  .main-nav {
+    gap: 1rem;
+  }
+
+  .nav-link {
+    font-size: 0.85rem;
+  }
+}
+
+/* ================================
+   Footer
+================================ */
+
+.site-footer {
+  margin-top: 4rem;
+  padding: 4rem 0 1.5rem;
+  border-top: 1px solid #e5e7eb;
+  background: #ffffff;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.footer-logo {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  background: #2563eb;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.footer-inner > div:first-child p {
+  max-width: 450px;
+  margin-top: 1rem;
+  color: #525252;
+  line-height: 1.6;
+}
+
+.footer-links {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.footer-links a {
+  color: #525252;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #2563eb;
+}
+
+.footer-bottom {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.footer-bottom p {
+  margin: 0;
+  color: #737373;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 640px) {
+  .footer-inner {
+    flex-direction: column;
+  }
+
+  .footer-links {
+    flex-wrap: wrap;
+  }
+}
