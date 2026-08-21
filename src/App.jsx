@@ -6,7 +6,7 @@ import HomePage from './pages/HomePage'
 import LmsCaseStudyPage from './pages/LmsCaseStudyPage'
 import NotFoundPage from './pages/NotFoundPage'
 import WorkPage from './pages/WorkPage'
-
+import './App.css'
 export default function App() {
   return (
     <BrowserRouter>

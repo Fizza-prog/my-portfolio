@@ -1,0 +1,374 @@
+Portfolio Website Specification
+1. Project Goal
+Build a professional, production-ready personal developer portfolio website.
+The portfolio should present me as a developer who builds and ships full-stack products with a focus on clean code, reliable systems, and usable interfaces.
+The website should be:
+Professional
+Clean
+Responsive
+Accessible
+Fast
+Easy to maintain
+Deployable as a production website
+Structured so it can be extended later
+This is a React frontend project. A backend is NOT required for the initial version.
+2. One-Line Claim
+I build and ship full-stack products with a focus on clean code, reliable systems, and usable interfaces.
+Do not replace this with generic developer portfolio language unless explicitly requested.
+3. Technology
+Use:
+React
+Vite
+JavaScript / JSX
+React Router
+CSS
+Git / GitHub
+Vercel for deployment
+Do NOT introduce unnecessary technologies or dependencies.
+Do not use:
+TypeScript
+Redux
+Backend
+Database
+Authentication
+unless there is a specific requirement that justifies them.
+4. Website Structure
+Home
+Sections:
+Hero
+Introduction
+Featured Projects
+Skills
+About Preview
+CTA — View My Work
+Work
+Sections:
+Introduction
+LMS Case Study
+Project 2
+Project 3
+CTA — Contact Me
+About
+Sections:
+Introduction
+What I Build
+Skills
+Development Approach
+CTA — View My Work
+Contact
+Sections:
+Contact message
+Email
+GitHub
+LinkedIn
+CTA — Get in Touch
+5. Visual Identity
+Typography
+Font: Inter
+Headings: Inter 700
+Body: Inter 400
+Labels / Small Text: Inter 500
+Inter should be used consistently throughout the website.
+Color Palette
+Role
+Color
+Hex
+Primary
+Blue
+#2563EB
+Text
+Near Black
+#171717
+Background
+Near White
+#F8FAFC
+Accent
+Teal
+#14B8A6
+The palette should remain restrained.
+Projects, screenshots, and actual work should remain the visual focus.
+Logo / Favicon
+Use a simple F monogram.
+The monogram should use:
+Inter Bold
+Primary blue: #2563EB
+Near-white background: #F8FAFC
+6. Visual Direction
+Overall mood:
+Clean
+Technical
+Calm
+Confident
+Minimal
+Professional
+Avoid:
+Excessive gradients
+Excessive animations
+Generic AI-generated portfolio aesthetics
+Excessive glassmorphism
+Unnecessary decorative elements
+Visually noisy layouts
+The interface should feel like a real developer/product portfolio rather than a template.
+7. Home Page
+Hero
+The hero should communicate:
+Who I am
+What I build
+My core value proposition
+Primary CTA to view work
+Secondary CTA to contact me
+Use the approved one-line claim:
+I build and ship full-stack products with a focus on clean code, reliable systems, and usable interfaces.
+Featured Projects
+The LMS should be the primary featured project.
+Project cards should be reusable and data-driven rather than duplicated manually.
+Skills
+Present relevant technical skills clearly without turning the section into an unnecessarily large technology list.
+About Preview
+Provide a concise introduction with a link to the full About page.
+8. Work Page
+The Work page should focus on projects rather than generic skill descriptions.
+Featured Project
+Learning Management System (LMS)
+The LMS should receive the strongest visual and content treatment because it is the strongest available case study.
+Additional projects:
+Project 2
+Project 3
+Project cards should support:
+Project title
+Description
+Technologies
+Screenshot
+GitHub link when available
+Live demo when available
+Case study link when applicable
+9. LMS Case Study
+The LMS is a full-stack Learning Management System.
+Technology
+Frontend:
+React
+Vite
+JavaScript / JSX
+Backend:
+Node.js
+Express
+Database:
+PostgreSQL
+Sequelize
+Authentication:
+JWT
+Authorization:
+Role-based authorization
+Architecture:
+Multi-tenant architecture using schoolId
+Case Study Structure
+The LMS case study should explain:
+Overview
+Problem
+Solution
+Key Features
+Technical Stack
+Architecture
+Technical Decisions
+Challenges
+Solutions
+Screenshots
+Results / Outcomes
+GitHub
+Live Demo
+Do not invent performance metrics, user numbers, business results, or other claims that have not actually been measured.
+10. LMS Visuals
+Use real screenshots from the working LMS application.
+Potential screenshots:
+Main dashboard
+Super Admin dashboard
+Admin dashboard
+User/member management
+School management
+Add Member form
+Add School form
+Authentication screens
+Important user workflow
+Use only the strongest 3–5 screenshots in the final case study.
+Screenshots should be:
+High resolution
+Properly cropped
+Legible
+Consistent
+Free from unnecessary browser/UI clutter
+Optional:
+Architecture diagram
+Database diagram
+API diagram
+Only include diagrams when they improve understanding.
+11. Other Projects
+For each additional project:
+One strong primary screenshot
+One or two supporting screenshots when useful
+Short description
+Technology list
+GitHub link
+Live demo when available
+Do not overcrowd project pages with screenshots.
+12. About Page
+The About page should explain:
+Introduction
+Who I am as a developer.
+What I Build
+The types of products and systems I work on.
+Skills
+Relevant frontend, backend, database, and software engineering skills.
+Development Approach
+Explain a practical engineering workflow such as:
+Understand the problem→ Design the solution→ Build→ Test→ Debug→ Refactor→ Ship
+Avoid generic motivational language.
+13. Contact Page
+The contact page should provide:
+Short contact message
+Email
+GitHub
+LinkedIn
+For the initial version, an actual backend-powered contact form is not required.
+Use appropriate external links and mailto: for email.
+14. Responsive Requirements
+The website must work across:
+Desktop
+Laptop
+Tablet
+Mobile
+At minimum, test approximately:
+1440px
+1024px
+768px
+390px
+Pay particular attention to:
+Navigation
+Typography
+Project cards
+Images
+Buttons
+Spacing
+Case study layouts
+Horizontal overflow
+15. Accessibility Requirements
+Use semantic HTML where appropriate.
+Examples:
+nav
+main
+section
+header
+footer
+button
+a
+Interactive elements must be keyboard accessible.
+Images should have meaningful alt text when appropriate.
+Do not use clickable div elements when a semantic interactive element is available.
+Maintain sufficient text/background contrast.
+16. Performance Requirements
+Keep the application lightweight.
+Avoid unnecessary dependencies.
+Optimize large images before using them.
+Avoid unnecessary React state and effects.
+Do not add libraries simply because they are available.
+The final application should produce a successful production build with:
+npm run build
+17. Code Quality
+Code should be:
+Readable
+Maintainable
+Componentized appropriately
+Reusable where useful
+Data-driven where appropriate
+Free from unnecessary abstraction
+Do not over-engineer a simple portfolio.
+Prefer simple solutions when they are sufficient.
+18. AI Development Rules
+AI will be used as a development assistant.
+AI may assist with:
+Requirement analysis
+Architecture suggestions
+Component implementation
+CSS implementation
+Debugging
+Refactoring
+Accessibility review
+Responsive design review
+Code quality review
+AI-generated code must be reviewed manually before being accepted.
+Do not blindly copy large generated implementations.
+Manual corrections and refactoring should be documented during development.
+19. AI Documentation
+Maintain a separate file:
+AI_PROMPTS.md
+Record meaningful prompts used during development.
+Examples:
+Requirements analysis
+Architecture planning
+Component implementation
+Debugging
+Responsive design
+Accessibility review
+Refactoring
+Do not document every trivial autocomplete interaction.
+20. Manual Development Log
+Maintain:
+DEVELOPMENT_LOG.md
+For meaningful AI-assisted changes, record:
+Task
+AI assistance
+Generated approach
+My review
+Manual correction
+Reason for correction
+Final result
+Examples may include:
+Removing unnecessary state
+Refactoring duplicated components
+Fixing responsive layouts
+Correcting semantic HTML
+Fixing accessibility issues
+Simplifying over-engineered code
+Correcting incorrect AI assumptions
+21. Deployment
+The final website should be deployed as a production application.
+Preferred deployment:
+Vercel
+The final project should have:
+GitHub repository
+Production build
+Live deployment URL
+22. Future Extensibility
+The initial version does not require a backend.
+However, the frontend should be structured cleanly enough that future features could be added, such as:
+Blog
+Dynamic project management
+CMS
+Contact form backend
+Analytics
+Admin dashboard
+Database-backed content
+Do not implement these features in the initial version unless required.
+23. Content Rules
+Use real information and real project evidence.
+Do not fabricate:
+Metrics
+Clients
+Testimonials
+Users
+Performance improvements
+Business results
+Project outcomes
+If information is unavailable, use a temporary placeholder and replace it before deployment.
+24. Primary Goal
+The final result should be a professional personal portfolio that I can actually deploy and use publicly.
+The website should demonstrate:
+Frontend development ability
+React knowledge
+UI/UX judgment
+Responsive design
+Component architecture
+Code quality
+Debugging ability
+Product thinking
+Appropriate use of AI as a development assistant
+Ability to review and improve AI-generated code
