@@ -18,6 +18,7 @@
       "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-green-500: #00c758;
     --color-zinc-50: #fafafa;
     --color-zinc-100: #f4f4f5;
     --color-zinc-200: #e4e4e7;
@@ -70,6 +71,7 @@
 
   @supports (color: lab(0% 0 0)) {
     :root, :host {
+      --color-green-500: lab(70.5521% -66.5147 45.8072);
       --color-zinc-50: lab(98.26% 0 0);
       --color-zinc-100: lab(96.1634% .0993013 -.364029);
       --color-zinc-200: lab(90.6853% .399202 -1.45452);
@@ -389,6 +391,10 @@
     aspect-ratio: var(--aspect-video);
   }
 
+  .h-3 {
+    height: calc(var(--spacing) * 3);
+  }
+
   .min-h-\[60vh\] {
     min-height: 60vh;
   }
@@ -399,6 +405,10 @@
 
   .min-h-screen {
     min-height: 100vh;
+  }
+
+  .w-3 {
+    width: calc(var(--spacing) * 3);
   }
 
   .max-w-2xl {
@@ -443,6 +453,10 @@
 
   .gap-2 {
     gap: calc(var(--spacing) * 2);
+  }
+
+  .gap-3 {
+    gap: calc(var(--spacing) * 3);
   }
 
   .gap-4 {
@@ -507,12 +521,20 @@
     border-bottom-width: 1px;
   }
 
+  .border-zinc-100 {
+    border-color: var(--color-zinc-100);
+  }
+
   .border-zinc-200 {
     border-color: var(--color-zinc-200);
   }
 
   .border-zinc-300 {
     border-color: var(--color-zinc-300);
+  }
+
+  .bg-green-500 {
+    background-color: var(--color-green-500);
   }
 
   .bg-white {
@@ -581,6 +603,10 @@
 
   .py-24 {
     padding-block: calc(var(--spacing) * 24);
+  }
+
+  .pb-4 {
+    padding-bottom: calc(var(--spacing) * 4);
   }
 
   .text-center {
