@@ -1,0 +1,22 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/3jnihsg-rcdh1.js"],""]
+3:I[97367,["/_next/static/chunks/3jnihsg-rcdh1.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+8:I[97367,["/_next/static/chunks/3jnihsg-rcdh1.js"],"ViewportBoundary"]
+9:I[97367,["/_next/static/chunks/3jnihsg-rcdh1.js"],"MetadataBoundary"]
+b:I[39756,["/_next/static/chunks/3jnihsg-rcdh1.js"],"default"]
+c:I[37457,["/_next/static/chunks/3jnihsg-rcdh1.js"],"default"]
+:HL["/_next/static/chunks/0zmls5d5wohx1.css","style"]
+7:X
+e:X
+e:C
+0:{"buildId":"pxmSQBvU1OD7cNvksT2b_","data":[{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"mx-auto flex min-h-[60vh] max-w-6xl flex-col items-center justify-center px-6 text-center","children":[["$","p",null,{"className":"text-sm text-zinc-500","children":"404"}],["$","h1",null,{"className":"mt-3 text-4xl font-bold","children":"Page Not Found"}],["$","p",null,{"className":"mt-4 text-zinc-600","children":"The page you're looking for doesn't exist."}],["$","$L2",null,{"href":"/","className":"mt-6 rounded-full bg-zinc-950 px-5 py-3 text-sm font-medium text-white","children":"Back Home"}]]}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":"$@6","staleTime":"$7","varyParams":null},{"rsc":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L8",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L9",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"My Portfolio"}],["$","meta","1",{"name":"description","content":"Frontend developer portfolio"}]]}]}]}],null]}],"isPartial":"$@a","staleTime":"$7","varyParams":null},{"rsc":["$","$1","c",{"children":[null,["$","$Lb",null,{"parallelRouterKey":"children","template":["$","$Lc",null,{}]}]]}],"isPartial":"$@d","staleTime":"$7","varyParams":"$e"},{"rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0zmls5d5wohx1.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/3jnihsg-rcdh1.js","async":true}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"min-h-screen bg-white text-zinc-950 antialiased","children":[["$","header",null,{"className":"border-b border-zinc-200","children":["$","nav",null,{"className":"mx-auto flex max-w-6xl items-center justify-between px-6 py-5","children":[["$","$L2",null,{"href":"/","className":"text-xl font-bold","children":"My Portfolio"}],["$","div",null,{"className":"flex items-center gap-6","children":[["$","$L2","/",{"href":"/","className":"text-sm text-zinc-600 transition hover:text-zinc-950","children":"Home"}],["$","$L2","/work",{"href":"/work","className":"text-sm text-zinc-600 transition hover:text-zinc-950","children":"Work"}],["$","$L2","/about",{"href":"/about","className":"text-sm text-zinc-600 transition hover:text-zinc-950","children":"About"}],["$","$L2","/contact",{"href":"/contact","className":"text-sm text-zinc-600 transition hover:text-zinc-950","children":"Contact"}]]}]]}]}],["$","main",null,{"className":"min-h-[calc(100vh-145px)]","children":["$","$Lb",null,{"parallelRouterKey":"children","template":["$","$Lc",null,{}],"notFound":[["$","main",null,{"className":"mx-auto flex min-h-[60vh] max-w-6xl flex-col items-center justify-center px-6 text-center","children":[["$","p",null,{"className":"text-sm text-zinc-500","children":"404"}],["$","h1",null,{"className":"mt-3 text-4xl font-bold","children":"Page Not Found"}],["$","p",null,{"className":"mt-4 text-zinc-600","children":"The page you're looking for doesn't exist."}],["$","$L2",null,{"href":"/","className":"mt-6 rounded-full bg-zinc-950 px-5 py-3 text-sm font-medium text-white","children":"Back Home"}]]}],[]]}]}],["$","footer",null,{"className":"border-t border-zinc-200","children":["$","div",null,{"className":"mx-auto max-w-6xl px-6 py-8 text-sm text-zinc-500","children":["© ",2026," My Portfolio. All rights reserved."]}]}]]}]}]]}],"isPartial":"$@f","staleTime":"$7","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@10","rootVaryParams":null,"needsRuntimeRequest":"$@11"}
+5:null
+7:300
+11:true
+7:C
+10:0
+a:"$undefined"
+d:"$undefined"
+f:"$undefined"
+6:"$undefined"
